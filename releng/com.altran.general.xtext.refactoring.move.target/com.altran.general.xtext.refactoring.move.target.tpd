@@ -1,0 +1,18 @@
+target "Xtext Move Refactoring Oxygen Tycho"
+
+with requirements source
+
+location "http://download.eclipse.org/releases/oxygen" {
+	org.eclipse.platform
+	org.eclipse.ui.ide.application
+	org.eclipse.xtend.lib
+	org.eclipse.xtend.lib.macro
+	org.eclipse.emf.ecore.xcore.lib
+	org.eclipse.emf.ecore.xcore.ui
+	
+	org.apache.commons.io
+	org.apache.commons.lang3
+	org.eclipse.emf.codegen.ecore
+	
+	org.junit [4,5)
+}

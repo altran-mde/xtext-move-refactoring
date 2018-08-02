@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="com.altran.general.xtext.refactoring.move.feature" version="0.0.0">
+      <category name="com.altran.general.xtext.refactoring.move.repository.category"/>
+   </feature>
+   <bundle id="com.altran.general.xtext.refactoring.move" version="0.0.0">
+      <category name="com.altran.general.xtext.refactoring.move.repository.category"/>
+   </bundle>
+   <category-def name="com.altran.general.xtext.refactoring.move.repository.category" label="Xtext Move Refactoring">
+      <description>
+         Altran Xtext Move Refactoring Features and Plug-ins
+      </description>
+   </category-def>
+</site>
