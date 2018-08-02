@@ -33,6 +33,19 @@
 
 	<packaging>pom</packaging>
 
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>Manatree artifactory-releases</name>
+			<url>https://artifact.manatree.io/artifactory/mde-libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Manatree artifactory-snapshots</name>
+			<url>https://artifact.manatree.io/artifactory/mde-libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
