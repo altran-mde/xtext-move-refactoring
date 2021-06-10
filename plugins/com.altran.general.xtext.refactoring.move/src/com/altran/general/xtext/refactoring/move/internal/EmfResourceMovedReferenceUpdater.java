@@ -26,7 +26,6 @@ import org.eclipse.xtext.ui.refactoring.impl.ReferenceDescriptionSorter;
 import org.eclipse.xtext.ui.refactoring.impl.StatusWrapper;
 
 import com.altran.general.xtext.refactoring.move.MoveElementArguments;
-import com.altran.general.xtext.refactoring.move.internal.EmfResourceChangeUtil;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
