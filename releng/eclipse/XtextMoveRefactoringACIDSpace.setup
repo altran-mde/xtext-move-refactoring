@@ -508,7 +508,7 @@
       </setupTask>
       <setupTask
           xsi:type="pde:TargetPlatformTask"
-          name="Xtext Move Refactoring Oxygen Tycho"/>
+          name="CBI Target Platform"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
