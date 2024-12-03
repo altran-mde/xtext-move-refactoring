@@ -2,17 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.altran.general.xtext.refactoring.move</groupId>
   <artifactId>com.altran.general.xtext.refactoring.move.parent</artifactId>
   <name>Xtext Move Refactoring - Parent</name>
-  <version>0.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
-    <groupId>com.altran.ec.mde</groupId>
-    <artifactId>com.altran.ec.mde.tycho.configuration</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <relativePath />
+    <groupId>com.altran.general.xtext.refactoring.move</groupId>
+    <artifactId>com.altran.general.xtext.refactoring.move.configuration</artifactId>
+    <version>0.2.0-SNAPSHOT</version>
+    <relativePath>../com.altran.general.xtext.refactoring.move.configuration/</relativePath>
   </parent>
 
   <properties>
