@@ -31,12 +31,9 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn verify --batch-mode --update-snapshots --fail-at-end --file pom.xml
-    - name: Attach Test Report
-      if: success() || failure()
-      uses: scacap/action-surefire-report@v1
     - name: Attach Pages
       uses: actions/upload-artifact@v3
       with:
-        name: EcoreDoc-pages
+        name: XtextMoveRefactoring-pages
         path: releng/com.altran.general.xtext.refactoring.move.pages/target/pages
         retention-days: 5
