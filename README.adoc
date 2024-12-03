@@ -1,0 +1,46 @@
+// enable kbd: / menu: / btn: UI macros
+:experimental: true
+// show icons as awesome-font characters
+:icons: font
+// enable attributes in link:
+:linkattrs: true
+
+:project-name: Xtext Move Refactoring
+:eclipse-version: 2020-03
+:github-project: altran-mde/xtext-move-refactoring
+:oomph-setup-file-path: releng/eclipse/XtextMoveRefactoringGitHub.setup
+:oomph-setup-stream: main
+
+= pass:normal[{project-name}]
+
+== Development Environment
+
+To start developing for {project-name}, please perform the following steps:
+
+. Start with downloading the `Eclipse Installer` from: +
+  https://www.eclipse.org/downloads/packages/installer
+. Start the `Eclipse Installer`
+. Select the `advanced mode` +
++
+image::https://help.eclipse.org/{eclipse-version}/topic/org.eclipse.egit.doc/help/EGit/Contributor_Guide/images/Oomph-01-advanced-mode.png[]
+. On the https://help.eclipse.org/{eclipse-version}/topic/org.eclipse.oomph.setup.doc/html/user/wizard/DocProductPage.html[Product Page] 
+.. Select `Eclipse Platform`
+.. Product Version: `{eclipse-version}`
+.. Click btn:[Next >]
+. On the https://help.eclipse.org/{eclipse-version}/topic/org.eclipse.oomph.setup.doc/html/user/wizard/DocProjectPage.html[Projects Page]
+.. (_One time only_) Click the image:https://help.eclipse.org/{eclipse-version}/topic/org.eclipse.oomph.setup.doc/images/trees/DULKrP4IGs7HGSVqoXcwRFgPxZQ=.png[] icon to add the {project-name} project.
+... Catalog: `Eclipse Projects`
+... Resource URIs: `link:https://raw.githubusercontent.com/{github-project}/refs/heads/{oomph-setup-stream}/{oomph-setup-file-path}[]`
+... Click btn:[OK] +
+... Enter your GitLab credentials when asked for
+.. Select `{project-name}` in the tree
+.. Select stream `{oomph-setup-stream}` in the table
+.. Click btn:[Next >]
+. On the https://help.eclipse.org/{eclipse-version}/topic/org.eclipse.oomph.setup.doc/html/user/wizard/DocVariablePage.html[Variables Page]
+.. Review all variables values, especially the `Installation folder name` and `Root install folder`
+.. Click btn:[Next >]
+. On the https://help.eclipse.org/{eclipse-version}/topic/org.eclipse.oomph.setup.doc/html/user/wizard/DocConfirmationPage.html[Confirmation Page]
+.. Click btn:[Finish]
+
+Your development environment will now be prepared.
+Please accept all licenses and certificates and provide your GitLab credentials when asked for.

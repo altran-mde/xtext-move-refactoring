@@ -1,0 +1,32 @@
+:idprefix:
+:idseparator: -
+
+// Enable custom style in index-docinfo.html
+:docinfo:
+
+:!table-caption:
+
+
+= Xtext Move Refactoring
+
+Building block to easily add the move model refactoring operation to an MDE tool (provided that models are serialized in a human textual notation, implemented with Xtext), open-sourced to the Eclipse community. 
+
+== Downloads
+
+Xtext Move Refactoring is available as a plugin for the Eclipse IDE through the P2 update site repository.
+
+.P2 update site
+
+The Xtext Move Refactoring P2 update site contains all plugins, for easy integration into OSGi-based applications.
+
+Xtext Move Refactoring is available as an Eclipse P2 update site:
+
+`\https://altran-mde.github.io/xtext-move-refactoring/update-site/`
+
+== Legal
+
+The material in this documentation is Copyright (c) 2018-2024 Capgemini and Contributors to the GitHub community.
+
+*License*
+
+Eclipse Public License - v 2.0

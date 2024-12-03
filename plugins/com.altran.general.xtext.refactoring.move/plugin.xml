@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="postprocessor" name="Xtext Move Refactoring Postprocessor" schema="schema/postprocessor.exsd"/>
+
+    <extension point="org.eclipse.ltk.core.refactoring.refactoringContributions">
+        <contribution
+            class="com.altran.general.xtext.refactoring.move.internal.XtextMoveRefactoringContribution"
+            id="com.altran.general.xtext.refactoring.move.refactoringId"
+            />
+    </extension>
+    
+</plugin>

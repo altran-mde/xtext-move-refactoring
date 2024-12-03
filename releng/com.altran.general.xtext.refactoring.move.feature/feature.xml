@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.altran.general.xtext.refactoring.move.feature"
+      label="Xtext Move Refactoring Feature"
+      version="0.2.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ltk.core.refactoring"/>
+      <import plugin="org.eclipse.emf.common"/>
+      <import plugin="com.google.inject"/>
+      <import plugin="org.eclipse.xtext.ui"/>
+      <import plugin="org.apache.commons.lang"/>
+   </requires>
+
+   <plugin
+         id="com.altran.general.xtext.refactoring.move"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
